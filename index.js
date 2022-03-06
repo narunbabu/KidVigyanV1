@@ -1,0 +1,21 @@
+import {AppRegistry} from 'react-native';
+import App from './App';
+// import App from './SideNavigatorApp/App';
+// import App from './OtherApps/DrawerComponent';
+// import App from './OtherApps/TouchableFeedback';
+// import App from './OtherApps/ModalComponent';
+// import App from './PopupApp/App';
+// import App from './CrackersApp/App';
+// import App from './SoundApp/App';
+// import MainView from './SoundApp/MainView';
+// import App from './ModalApp/App';
+// import App from './TimerApp/App1';
+// import App from './NavApp/App';
+// import DApp from './Chart/App';
+// import App from './MathsApp/DynamicTab/App';
+// import App from './MultiChecklist/App';
+// import App from './MathsApp/components/ParentModule/App';
+// import App from './NavTabs/NewApp';
+import {name as appName} from './app.json';
+
+AppRegistry.registerComponent(appName, () => App);
