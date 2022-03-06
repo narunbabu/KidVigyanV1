@@ -7,6 +7,7 @@ function setTestState(testInfo, component, status) {
     tests: {...component.state.tests, [testInfo.title]: status},
   });
 }
+//Hello
 function playSound(testInfo, component) {
   setTestState(testInfo, component, 'pending');
 
@@ -40,7 +41,7 @@ function playSound(testInfo, component) {
 export default function App() {
   Sound.setCategory('Playback');
   require('./Assets/rever-birds.wav');
-  const whoosh = new Sound('ding.mp3', Sound.MAIN_BUNDLE, error => {
+  const whoosh = new Sound(require('./ding.mp3'), Sound.MAIN_BUNDLE, error => {
     if (error) {
       console.log('failed to load the sound', error);
       return;
@@ -55,7 +56,7 @@ export default function App() {
       }
     });
   });
-  let hello = new Sound('ding.mp3', Sound.MAIN_BUNDLE, error => {
+  let hello = new Sound(require('./ding.mp3'), Sound.MAIN_BUNDLE, error => {
     if (error) {
       console.log(error);
     }
