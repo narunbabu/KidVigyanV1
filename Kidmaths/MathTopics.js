@@ -48,18 +48,18 @@ const TopicsApp = ({navigation}) => {
     });
     return willFocusSubscription;
   }, []);
-  return (
-    <Fireworks
-      speed={3}
-      density={8}
-      colors={['#ff0', '#ff3', '#cc0', '#ff4500', '#ff6347']}
-      iterations={5}
-      height={150}
-      width={100}
-      zIndex={2}
-      circular={true}
-    />
-  );
+  // return (
+  //   <Fireworks
+  //     speed={3}
+  //     density={8}
+  //     colors={['#ff0', '#ff3', '#cc0', '#ff4500', '#ff6347']}
+  //     iterations={5}
+  //     height={150}
+  //     width={100}
+  //     zIndex={2}
+  //     circular={true}
+  //   />
+  // );
 
   return (
     <ImageBackground
