@@ -153,3 +153,63 @@ export const scoreformat = [
 //     Division: 4,
 //     Comparisons: 5,
 //   };
+export const problem_structure = [
+  {
+    number_problems: 10,
+    level_numpro: [[1, 10]],
+  },
+  {
+    number_problems: 5,
+    level_numpro: [
+      [1, 8],
+      [2, 2],
+    ],
+  },
+  {
+    number_problems: 5,
+    level_numpro: [
+      [1, 6],
+      [2, 4],
+    ],
+  },
+  {
+    number_problems: 10,
+    level_numpro: [[2, 10]],
+  },
+  {
+    number_problems: 5,
+    level_numpro: [
+      [2, 8],
+      [3, 2],
+    ],
+  },
+  {
+    number_problems: 5,
+    level_numpro: [
+      [2, 6],
+      [3, 4],
+    ],
+  },
+  {
+    number_problems: 10,
+    level_numpro: [[3, 10]],
+  },
+  {
+    number_problems: 5,
+    level_numpro: [
+      [3, 8],
+      [4, 2],
+    ],
+  },
+  {
+    number_problems: 5,
+    level_numpro: [
+      [3, 6],
+      [4, 4],
+    ],
+  },
+  {
+    number_problems: 10,
+    level_numpro: [[4, 10]],
+  },
+];

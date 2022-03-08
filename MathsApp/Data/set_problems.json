@@ -1,0 +1,15 @@
+{
+set1:
+{number_problems:10,
+level_numpro:[[1,10]]},
+set2:
+{number_problems:5,
+level_numpro:[[1,8],[2,2]]},
+set3:
+{number_problems:5,
+level_numpro:[[1,6],[2,4]]},
+set4:
+{number_problems:10,
+level_numpro:[[2,10],[2,2]]},
+
+}
