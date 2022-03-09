@@ -1,3 +1,4 @@
+import { problem_structure } from "./Kidmaths/Data/Data";
 s = [
   {
     date: '2021-09-05T21:00:27.452Z',
